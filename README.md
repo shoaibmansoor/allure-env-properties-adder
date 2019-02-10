@@ -21,7 +21,7 @@ npm i -g allure-env-properties-adder
 allure-env-properties-adder "--props.K1=V1" "--props.K2=V2"
 ```
 
-Check `allure-env-properties-adder --help` to get full list of command line options
+> Check `allure-env-properties-adder --help` to get full list of command line options
 
 It can also be used with [Jasmine](https://www.npmjs.com/package/jasmine) and [Protractor with Jasmine](https://www.npmjs.com/package/protractor) frameworks programmatically
 
@@ -40,6 +40,10 @@ jasmine.getEnv().addReporter(new AllureEnvPropsAdder({
         }));
 
 ```
+
+## Sample Report
+![Allure Screenshot](https://raw.githubusercontent.com/shoaibmansoor/allure-env-properties-adder/master/resources/allure-report.png)
+
 
 ## Debugging
 ### CLI
