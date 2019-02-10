@@ -29,7 +29,7 @@ It can also be used with [Jasmine](https://www.npmjs.com/package/jasmine) and [P
 const AllureEnvPropsAdder = require('allure-env-properties-adder').AllureEnvPropsAdder;
 
 jasmine.getEnv().addReporter(new AllureEnvPropsAdder({
-            outputDir: <any dir>,       // optional [default: '.']
+            outputDir: <path to allure-results dir>,       // optional [default: '.']
             fileName: <file-name>,      // optional [default: 'environment.properties']
             debug: false,               // optional [default: false]
             override: true,             // optional [default: true]
