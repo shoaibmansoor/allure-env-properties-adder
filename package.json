@@ -28,7 +28,7 @@
     "display",
     "env"
   ],
-  "author": "shoaibmansoor",
+  "author": "Shoaib Mansoor",
   "license": "ISC",
   "dependencies": {
     "minimist": "^1.2.0"
