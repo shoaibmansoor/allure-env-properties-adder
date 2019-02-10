@@ -1,0 +1,32 @@
+{
+  "name": "allure-env-properties-adder",
+  "version": "1.0.2",
+  "description": "Node module to add K-V pairs to allure report",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node lib/index.js"
+  },
+  "bin": "./bin/allure-env-properties-adder.js",
+  "keywords": [
+    "allure-env",
+    "allure",
+    "environment",
+    "allure",
+    "environment",
+    "properties",
+    "allure",
+    "properties",
+    "env",
+    "variables",
+    "allure",
+    "display",
+    "display",
+    "env"
+  ],
+  "author": "shoaibmansoor",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
