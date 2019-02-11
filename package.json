@@ -10,7 +10,7 @@
   "scripts": {
     "pretest": "eslint --ignore-path .gitignore .",
     "test": "node jasmine.conf.js",
-    "build": "test && node lib/index.js"
+    "build": "npm run test && node lib/index.js"
   },
   "bin": "./bin/allure-env-properties-adder.js",
   "keywords": [
