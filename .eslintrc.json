@@ -1,0 +1,19 @@
+{
+  "extends": "strongloop",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "indent": ["error", 4],
+    "no-return-assign": ["off"],
+    "max-len": ["error", 100]
+  },
+  "globals": {
+    "it": true,
+    "describe": true,
+    "expect": true
+  }
+}
