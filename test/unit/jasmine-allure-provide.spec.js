@@ -13,13 +13,13 @@ const ARGS = {
 
 describe('Jasmine AllureEnvPropsAdder class Suite', () => {
 
-    it('Check if AllureEnvPropsAdder has a property jasmineStarted', () => {
+    it('Check if AllureEnvPropsAdder has a property jasmineDone', () => {
         const obj = new AllureEnvPropsAdder(ARGS);
-        expect(obj.hasOwnProperty('jasmineStarted')).toBeTruthy();
+        expect(obj.hasOwnProperty('jasmineDone')).toBeTruthy();
     });
 
-    it('Check if AllureEnvPropsAdder\'s jasmineStarted is bound to an async function', () => {
+    it('Check if AllureEnvPropsAdder\'s jasmineDone is bound to an async function', () => {
         const obj = new AllureEnvPropsAdder(ARGS);
-        expect(obj.jasmineStarted.constructor.name === 'AsyncFunction').toBeTruthy();
+        expect(obj.jasmineDone.constructor.name === 'AsyncFunction').toBeTruthy();
     });
 });
