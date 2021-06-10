@@ -32,7 +32,7 @@
   "author": "Shoaib Mansoor",
   "license": "ISC",
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.3"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
